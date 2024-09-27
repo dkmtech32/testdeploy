@@ -1,0 +1,25 @@
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .arrow:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .arrowLeft {
+  }
+  
+  .arrowRight {
+  }
